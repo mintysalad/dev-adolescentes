@@ -10,9 +10,75 @@
 </head>
 <body>
 
-<h1>Teste fonte</h1>
-<p>Teste</p>
-<div>Teste a</div>
+    <h1>Cadastro de Alunos</h1>
+    <h2>Alunos Cadastrados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Curso</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Silva</td>
+                <td>Desenvolvedor de Sistemas</td>
+                <td>19</td>
+                <td>Novo Hamburgo</td>
+            </tr>
+            <tr>
+                <td>Pedro Souza</td>
+                <td>Informática</td>
+                <td>22</td>
+                <td>São Leopoldo</td>
+            </tr>
+            <tr>
+                <td>Morgana Meow</td>
+                <td>TI</td>
+                <td>27</td>
+                <td>Igrejinha</td>
+            </tr>
+            <tr>
+                <td>Vicenzo Luvizon</td>
+                <td>Eletrônica</td>
+                <td>18</td>
+                <td>Novo Hamburgo</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Novo Cadastro</h2>
+    <form action="#" method="post">
+
+        <label for="nome">Nome completo:</label>
+        <br><br>
+        <input type="text" id="nome" placeholder="Digite seu nome...">
+
+
+        <label for="email">Email:</label>
+        <br><br>
+        <input type="text" id="email" placeholder="Digite seu email...">
+        <br><br>
+        
+        <label for="idade">Idade:</label>
+        <br><br>
+        <input type="number" id="idade" placeholder="Digite sua idade...">
+        <br><br>
+
+        <label for="Curso">Escolha seu Curso:</label>
+        <select name="curso" id="curso">
+            <option value="">Selecione um curso</option>
+            <option value="informatica">Informática</option>
+            <option value="excel">Excel</option>
+            <option value="desenvolvimento">Desenvolvimento de Sistemas</option>
+        </select>
+        <label for="mensagem">Observações:</label>
+        <textarea id="mensagem" rows="4" 
+        placeholder="Digite alguma observação"></textarea>
+
+    </form>
     
 </body>
 </html>

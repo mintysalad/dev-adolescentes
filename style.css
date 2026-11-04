@@ -1,7 +1,7 @@
 .container{
     display: flex;
     gap: 10px;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
 
 .item{
